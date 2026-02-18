@@ -5,8 +5,9 @@
 }
 
 .container {
-  max-width: 1350px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 body {
@@ -14,15 +15,21 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Navbar */
+
 .logo-img {
   width: 100px;
 }
 
 .nav-container {
+  background: black;
+}
+
+.navbar-flex {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem;
-  background-color: blueviolet;
+  padding: 1rem;
+  padding-top: 2rem;
 }
 
 .nav-list-container .nav-list {
@@ -31,10 +38,14 @@ body {
   list-style: none;
   color: white;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .list-items a {
   color: white;
   text-decoration: none;
+}
+
+.list-items a:hover {
+  color: #ffd000;
 }
