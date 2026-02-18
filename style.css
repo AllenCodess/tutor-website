@@ -13,6 +13,7 @@
 body {
   background-color: rgb(219, 112, 112);
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -58,7 +59,7 @@ body {
   left: 0;
   width: 100%;
   text-align: center;
-  background: rgba(154, 192, 204, 0.5);
+  background: rgb(23, 23, 24);
   transition: transform 0.3s ease;
   padding: 1rem;
   transform: translatex(100%); /*Hide the mobile menu items off screen*/
@@ -68,7 +69,6 @@ body {
   list-style: none;
   padding: 2rem 0;
   font-size: 20px;
-  border: #797373 solid 1px;
 }
 
 .mobile-menu-list-items a {
@@ -76,12 +76,20 @@ body {
   color: white;
 }
 
+.mobile-menu .mobile-menu-toggle {
+  cursor: pointer;
+}
+
 .nav-container .mobile-menu {
   display: none;
 }
 
-.nav-container .mobile-menu.active {
+.nav-container .mobile-menu-list-container.active {
   transform: translateX(0);
+}
+
+.mobile-menu-list-items a:hover {
+  color: #ffd000;
 }
 
 /* Media Queries */
