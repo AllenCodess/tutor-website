@@ -101,4 +101,9 @@ body {
   .nav-container .mobile-menu {
     display: block;
   }
+
+  .nav-container .mobile-menu-list-container {
+    height: calc(100dvh - 91.58px);
+    overflow-y: auto;
+  }
 }
