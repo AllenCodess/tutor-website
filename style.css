@@ -21,9 +21,13 @@ body {
   width: 100px;
 }
 
-/* .nav-container {
-  background-color: black;
-} */
+.nav-container {
+  background: transparent;
+  position: fixed;
+  z-index: 1001;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
 
 .navbar-flex {
   display: flex;
@@ -63,6 +67,15 @@ body {
   transform: translatex(100%); /*Hide the mobile menu items off screen*/
 }
 
+.nav-container.navbar-scroll {
+  background-color: rgba(235, 77, 85, 0.7);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
 .mobile-menu-list .mobile-menu-list-items {
   list-style: none;
   padding: 2rem 0;
@@ -99,16 +112,16 @@ header {
   background-position: center;
   background-size: cover;
   position: relative;
-  padding-bottom: 5rem;
+  padding: 12rem 0 5rem;
+  margin-top: 0;
 }
 
 .hero-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10rem;
   gap: 6rem;
-  padding-bottom: 8rem;
+  padding-bottom: 20rem;
 }
 
 .hero-header {
