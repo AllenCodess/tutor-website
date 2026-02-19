@@ -147,4 +147,12 @@ header {
     height: calc(100dvh - 91.58px);
     overflow-y: auto;
   }
+
+  .hero-header-container {
+    flex-direction: column;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
 }
