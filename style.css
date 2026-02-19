@@ -135,7 +135,7 @@ header {
 }
 
 .btn {
-  padding: 1.4rem;
+  padding: 1.4rem 2.3rem;
   background-color: #ffd000;
   font-size: 16px;
   border: none;
@@ -172,9 +172,28 @@ header {
 
   .hero-header-container {
     flex-direction: column;
+    text-align: center;
   }
 
   .hero-img {
     width: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-header {
+    font-size: 50px;
+  }
+
+  .hero-subtext {
+    font-size: 19px;
+  }
+
+  .hero-btn {
+    font-size: 20px;
   }
 }
