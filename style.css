@@ -155,6 +155,20 @@ header {
   border-radius: 30px;
 }
 
+/* Learn section */
+
+.learn-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 100px;
+}
+
+.learn-grid-container img {
+  width: 300px;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
