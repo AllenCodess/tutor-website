@@ -173,19 +173,22 @@ header {
 }
 
 .learn-text-container,
-.chapters-text {
+.chapters-text,
+.summary-header-container {
   text-align: center;
   margin-bottom: 3rem;
 }
 
 .learn-header,
-.chapters-header {
+.chapters-header,
+.summary-header {
   font-size: 40px;
   margin-bottom: 1rem;
 }
 
 .heading-border,
-.chapters-border {
+.chapters-border,
+.summary-border {
   width: 64px;
   height: 4px;
   background-color: #f11313;
@@ -252,6 +255,18 @@ header {
 
 .chapter1-subtext {
   font-size: 20px;
+}
+
+/* Summary Section */
+
+.summary {
+  background-color: #f3f6f8;
+  width: 100%;
+}
+
+.summary-header-container {
+  padding-top: 3rem;
+  margin-top: 4rem;
 }
 
 /* Media Queries */
