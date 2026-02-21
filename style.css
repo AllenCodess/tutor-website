@@ -269,6 +269,18 @@ header {
   margin-top: 4rem;
 }
 
+.course-summary-header-container {
+  background-color: lightcoral;
+  width: 90%;
+  color: white;
+}
+
+.summary-points {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
