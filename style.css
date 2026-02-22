@@ -13,6 +13,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
@@ -152,10 +153,16 @@ header {
 
 .btn {
   padding: 1.4rem 2.3rem;
-  background-color: #ffd000;
-  font-size: 16px;
+  background-color: #ffbf01;
+  font-size: 18px;
   border: none;
   border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background: #ff5757;
 }
 
 /* Learn section */
@@ -183,7 +190,8 @@ header {
 .learn-header,
 .chapters-header,
 .summary-header,
-.takeaway-header {
+.takeaway-header,
+.course-details-header {
   font-size: 40px;
   margin-bottom: 1rem;
 }
@@ -360,6 +368,51 @@ header {
 
 .takeaway-text {
   font-size: 20px;
+}
+
+/* Course Details */
+
+.course-details-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+  margin-top: 7rem;
+}
+
+.flex-author {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.course-details-border {
+  width: 64px;
+  height: 4px;
+  background-color: #f11313;
+}
+
+.course-details-subtext {
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.course-details-img {
+  width: 600px;
+}
+
+.coursedetails {
+  margin-top: 3rem;
+}
+
+/* Author Information */
+.author-list {
+  list-style: none;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.author-list-items {
+  padding: 0.5rem;
 }
 
 /* Media Queries */
