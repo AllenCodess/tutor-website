@@ -417,6 +417,41 @@ header {
 
 /* Stats */
 
+.stats {
+  background-image: url(images/stats-background.jpg);
+  margin-top: 5rem;
+}
+
+.stats-img {
+  margin-top: 4rem;
+}
+
+.stats-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  column-gap: 10rem;
+}
+
+.stats-numbers {
+  display: flex;
+  column-gap: 40px;
+}
+
+.stats-text-container {
+  text-align: center;
+}
+
+.stats-num {
+  font-size: 50px;
+}
+
+.stats-subtext {
+  margin: 3rem auto;
+  font-size: 25px;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
