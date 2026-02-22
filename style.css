@@ -402,8 +402,16 @@ header {
   }
 
   .learn-subtext,
-  .chapters-subheading {
+  .chapters-subheading,
+  .takeaway-subtext {
     width: 90%;
+  }
+  .takeaway-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    gap: 30px;
+    margin-bottom: 2rem auto;
   }
 }
 
@@ -448,6 +456,10 @@ header {
   }
 
   .chapter1-subheading {
+    width: 90%;
+  }
+
+  .summary-points {
     width: 90%;
   }
 
