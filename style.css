@@ -481,6 +481,27 @@ header {
     font-size: 16px;
     padding: 0.5rem 0;
   }
+
+  .stats-content-container {
+    flex-direction: column;
+  }
+
+  .stats-text-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .stats-numbers {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .stats-subtext {
+    width: 70%;
+  }
 }
 
 @media (max-width: 900px) {
@@ -519,6 +540,10 @@ header {
   .flex-author {
     display: flex;
     flex-direction: column;
+  }
+
+  .stats-img {
+    width: 90%;
   }
 }
 
