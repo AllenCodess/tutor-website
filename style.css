@@ -415,6 +415,8 @@ header {
   padding: 0.5rem;
 }
 
+/* Stats */
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
@@ -466,6 +468,22 @@ header {
     width: 90%;
     gap: 30px;
     margin-bottom: 2rem auto;
+  }
+  .course-details-content-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .course-details-border {
+    width: 64px;
+    height: 4px;
+    background-color: #f11313;
+    margin: 0 auto;
+  }
+
+  .flex-author {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -527,6 +545,15 @@ header {
 
   .coursefor-subtext {
     font-size: 18px;
+    width: 90%;
+  }
+
+  .coursefor-header {
+    font-size: 30px;
+    width: 90%;
+  }
+
+  .course-details-img {
     width: 90%;
   }
 }
