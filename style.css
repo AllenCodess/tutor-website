@@ -174,21 +174,24 @@ header {
 
 .learn-text-container,
 .chapters-text,
-.summary-header-container {
+.summary-header-container,
+.takeaway-header-container {
   text-align: center;
   margin-bottom: 3rem;
 }
 
 .learn-header,
 .chapters-header,
-.summary-header {
+.summary-header,
+.takeaway-header {
   font-size: 40px;
   margin-bottom: 1rem;
 }
 
 .heading-border,
 .chapters-border,
-.summary-border {
+.summary-border,
+.takeaway-border {
   width: 64px;
   height: 4px;
   background-color: #f11313;
@@ -196,7 +199,8 @@ header {
 }
 
 .learn-subtext,
-.chapters-subheading {
+.chapters-subheading,
+.takeaway-subtext {
   margin-top: 2rem;
   font-size: 25px;
   width: 900px;
@@ -302,6 +306,7 @@ header {
   display: flex;
   background-color: #ff5757;
   color: white;
+  margin-bottom: 3rem;
 }
 
 .coursefor-text {
@@ -333,6 +338,8 @@ header {
   font-size: 25px;
   padding: 0.5rem 0;
 }
+
+/* Takeaways section */
 
 /* Media Queries */
 
