@@ -722,6 +722,24 @@ footer {
   .course-details-img {
     width: 90%;
   }
+
+  .second-footer-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .newletter-container {
+    width: 90%;
+  }
+
+  .socialmedia-text {
+    font-size: 25px;
+  }
+
+  .social-media-list-items {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 575px) {
