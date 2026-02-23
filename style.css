@@ -452,6 +452,43 @@ header {
   font-size: 25px;
 }
 
+/* Newsletter */
+
+.newletter-container {
+  background-color: #f4f4f4;
+  width: 50%;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.newsletter-text-content {
+  padding: 3rem 0;
+}
+
+.newsletter-header {
+  font-size: 40px;
+}
+
+.newsletter-subtext {
+  font-size: 20px;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.newsletterform label {
+  display: none;
+}
+
+.newsletterform input {
+  padding: 1rem 2rem;
+  width: 40%;
+  border: rgb(202, 202, 202) solid 1px;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-bottom: 1.4rem;
+  margin-top: 1rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
