@@ -507,7 +507,7 @@ footer {
   list-style: none;
   justify-content: center;
   column-gap: 5px;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .socialmedia-text {
@@ -517,6 +517,23 @@ footer {
 
 .social-media-list-items {
   font-size: 30px;
+}
+
+.second-footer-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.second-footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+  font-size: 20px;
+}
+
+.second-footer {
+  border-top: solid 1px rgb(77, 102, 111);
 }
 
 /* Media Queries */
