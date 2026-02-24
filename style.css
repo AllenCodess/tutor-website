@@ -553,6 +553,36 @@ footer {
   font-size: 50px;
 }
 
+.contact-html-text-container {
+  margin-top: 3rem;
+}
+
+.contact-text {
+  font-size: 20px;
+  margin-bottom: 4rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input {
+  margin: 1rem 0;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  font-size: 18px;
+  border: #d3d3d3 solid 1px;
+}
+
+.contact-submit {
+  margin-top: 2rem;
+}
+
+textarea {
+  height: 250px;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
