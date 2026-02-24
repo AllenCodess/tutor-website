@@ -536,6 +536,23 @@ footer {
   border-top: solid 1px rgb(77, 102, 111);
 }
 
+/* Contact.html */
+
+.contact-page {
+  background-color: #ff5757;
+  background-image: none;
+  height: 300px;
+}
+
+.contact-header-container {
+  padding-top: 12rem;
+  color: white;
+}
+
+.contact-header-container .contact-index-page {
+  font-size: 50px;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
