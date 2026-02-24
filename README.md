@@ -6,4 +6,4 @@ This website is configured with html css and a little js
 
 [Live Demo](https://allencodess.github.io/tutor-website/)
 
-![Screenshot](screenshot.png)
+![Screenshot](images/screenshot.png)
